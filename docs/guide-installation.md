@@ -4,7 +4,7 @@ Ce guide est écrit pour une personne qui **n'a jamais utilisé d'outil d'IA** e
 
 - **Chapitre 0** : avant de commencer (à lire une fois). ✅ rédigé
 - **Chapitre 1** : niveau 1, les prompts (le plus simple, aucune installation). ✅ rédigé
-- **Chapitre 2** : niveau 2, les skills. 🚧 à venir
+- **Chapitre 2** : niveau 2, les skills. ✅ rédigé
 - **Chapitre 3** : niveau 3, les agents. 🚧 à venir
 - **Annexes** : glossaire, cas de démonstration, personnalisation. ✅ glossaire rédigé
 
@@ -109,6 +109,72 @@ Même principe avec `audit-patrimonial.md`, mais pour analyser ce que le client 
 | Il invente un bilan sans que vous ayez donné de pièces | Vous n'avez rien joint, mais le comportement attendu est qu'il réclame les pièces | Vérifiez que vous avez la dernière version du prompt ; sinon signalez-le à l'équipe |
 | Il n'arrive pas à lire une pièce | Photo floue ou document illisible | Fournissez une version nette, ou saisissez l'information à la main |
 | La réponse s'arrête au milieu | Dossier trop long pour la version gratuite | Passez à Claude Pro, ou traitez le dossier en deux fois |
+
+---
+
+# Chapitre 2 — Niveau 2 : les skills
+
+⏱️ Durée : environ 10 minutes, dont 5 pour le premier chargement.
+
+Un **skill**, c'est un prompt du niveau 1 empaqueté une fois pour toutes, avec en plus votre contexte cabinet et un format de sortie soigné (PowerPoint, trame, courrier). Vous le chargez une fois dans Claude ; ensuite, il s'active tout seul dès que le sujet s'y prête. Fini le copier-coller à chaque conversation.
+
+## 2.1 Télécharger un skill depuis GitHub
+
+1. Ouvrez le dossier [`02-skills/`](../02-skills/) du projet.
+2. Cliquez sur le dossier du skill qui vous intéresse (commencez par `audit-contrat-av/`).
+3. Cliquez sur le fichier qui se termine par **`.zip`** (ici `audit-contrat-av.zip`).
+4. Cliquez sur le bouton de téléchargement, en haut à droite du fichier (une flèche vers le bas, « Download raw file »).
+5. Le fichier arrive dans votre dossier « Téléchargements ». **Ne le décompressez pas.**
+
+## 2.2 Charger le skill dans Claude
+
+<!-- ![La page Compétences dans les paramètres](captures/01-page-competences.png) : capture a venir -->
+
+1. Sur [claude.ai](https://claude.ai), cliquez sur vos initiales **en bas à gauche**, puis sur **Paramètres**.
+2. Dans le menu de gauche, section « Personnaliser », cliquez sur **Compétences** (« Skills » si votre interface est en anglais).
+
+<!-- ![Le menu Ajouter](captures/02-menu-ajouter.png) : capture a venir -->
+
+3. En haut à droite, cliquez sur le bouton **Ajouter**, puis sur **Téléverser une compétence**.
+
+<!-- ![La fenêtre d'import](captures/03-importer-competence.png) : capture a venir -->
+
+4. Une fenêtre « Importer une compétence » s'ouvre : **glissez-y le fichier `.zip`** depuis votre dossier Téléchargements (ou cliquez sur la zone pour le sélectionner).
+5. Le skill apparaît dans votre liste de compétences. C'est chargé, pour de bon : vous n'aurez plus jamais à refaire cette étape pour ce skill.
+
+<!-- ![Le skill dans la liste](captures/04-skill-charge.png) : capture a venir -->
+
+💡 Vous ne voyez pas la section « Compétences » ? Cette fonction fait partie des offres payantes de Claude et se déploie progressivement : vérifiez que vous êtes connecté avec le bon compte, ou restez au niveau 1 en attendant, il fait le même métier.
+
+## 2.3 Votre premier audit avec le skill
+
+1. Ouvrez une **nouvelle conversation** (inutile d'aller chercher le skill : il s'active tout seul).
+2. Joignez un relevé de contrat d'assurance-vie **anonymisé** (⚠️ chapitre 0.3) avec le trombone.
+3. Écrivez simplement : « Audit de ce contrat, profil équilibré, horizon 8 ans. »
+4. Claude détecte le sujet, applique la grille du cabinet et produit l'audit, puis le PowerPoint de restitution.
+
+Pas de contrat sous la main ? Testez avec le dossier fictif fourni : les notes de rendez-vous de la famille Martin (`02-skills/bilan-patrimonial/exemples/notes-rdv-cas-martin.md`) avec le skill bilan, en écrivant « Fais le bilan patrimonial de ce dossier ». Et pour voir à quoi doit ressembler le résultat : dossier [`02-skills/exemples/`](../02-skills/exemples/).
+
+## 2.4 Le personnaliser pour votre cabinet
+
+Dans chaque skill, **un seul fichier vous concerne** : `contexte-cabinet.md`.
+
+1. Décompressez le `.zip` (double-clic).
+2. Ouvrez `contexte-cabinet.md` avec TextEdit (Mac) ou le Bloc-notes (Windows).
+3. Remplacez : nom du cabinet, statuts ORIAS, ton, couleurs et polices de votre charte.
+4. Recompressez le dossier : clic droit sur le dossier → **Compresser** (Mac) ou **Envoyer vers → Dossier compressé** (Windows).
+5. Rechargez ce nouveau `.zip` comme en 2.2 (supprimez l'ancien skill de la liste au passage, via les trois points à droite de son nom).
+
+Ne touchez pas aux autres fichiers (grilles, trames, garde-fous) : c'est la méthode, et les garde-fous vous protègent.
+
+## 2.5 Si ça ne marche pas
+
+| Problème | Cause probable | Solution |
+|---|---|---|
+| « Le fichier .zip doit inclure un fichier SKILL.md » | Le zip a été décompressé puis recompressé au mauvais niveau | Le `SKILL.md` doit être directement dans le dossier zippé, pas dans un sous-dossier intermédiaire |
+| Le skill ne se déclenche pas en conversation | Sujet trop éloigné de sa description | Nommez la tâche explicitement (« audit de ce contrat ») ; vérifiez que le skill est bien dans la liste |
+| La sortie ignore votre charte | `contexte-cabinet.md` non personnalisé, ou ancien skill encore chargé | Refaites 2.4 et supprimez l'ancienne version de la liste |
+| Pas de section Compétences dans les paramètres | Offre gratuite ou déploiement progressif | Voir l'encadré du 2.2 |
 
 ---
 
