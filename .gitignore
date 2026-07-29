@@ -1,0 +1,13 @@
+# Données clients : ne JAMAIS versionner
+*-reel.md
+*-client-*.md
+/dossiers-clients/
+*.local
+
+# Notes internes (entretiens, noms de cabinets) : restent dans Notion, jamais dans le repo
+contexte-metier-*.md
+logique-cgp-*.md
+
+# Système
+.DS_Store
+Thumbs.db
