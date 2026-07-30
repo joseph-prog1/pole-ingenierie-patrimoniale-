@@ -128,21 +128,21 @@ Un **skill**, c'est un prompt du niveau 1 empaqueté une fois pour toutes, avec 
 
 ## 2.2 Charger le skill dans Claude
 
-<!-- ![La page Compétences dans les paramètres](captures/01-page-competences.png) : capture a venir -->
+![La page Compétences dans les paramètres](captures/01-page-competences.jpg)
 
 1. Sur [claude.ai](https://claude.ai), cliquez sur vos initiales **en bas à gauche**, puis sur **Paramètres**.
 2. Dans le menu de gauche, section « Personnaliser », cliquez sur **Compétences** (« Skills » si votre interface est en anglais).
 
-<!-- ![Le menu Ajouter](captures/02-menu-ajouter.png) : capture a venir -->
+![Le menu Ajouter](captures/02-menu-ajouter.jpg)
 
 3. En haut à droite, cliquez sur le bouton **Ajouter**, puis sur **Téléverser une compétence**.
 
-<!-- ![La fenêtre d'import](captures/03-importer-competence.png) : capture a venir -->
+![La fenêtre d'import](captures/03-importer-competence.jpg)
 
 4. Une fenêtre « Importer une compétence » s'ouvre : **glissez-y le fichier `.zip`** depuis votre dossier Téléchargements (ou cliquez sur la zone pour le sélectionner).
 5. Le skill apparaît dans votre liste de compétences. C'est chargé, pour de bon : vous n'aurez plus jamais à refaire cette étape pour ce skill.
 
-<!-- ![Le skill dans la liste](captures/04-skill-charge.png) : capture a venir -->
+![Le skill dans la liste](captures/04-skill-charge.jpg)
 
 💡 Vous ne voyez pas la section « Compétences » ? Cette fonction fait partie des offres payantes de Claude et se déploie progressivement : vérifiez que vous êtes connecté avec le bon compte, ou restez au niveau 1 en attendant, il fait le même métier.
 
