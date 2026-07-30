@@ -5,7 +5,7 @@ Ce guide est écrit pour une personne qui **n'a jamais utilisé d'outil d'IA** e
 - **Chapitre 0** : avant de commencer (à lire une fois). ✅ rédigé
 - **Chapitre 1** : niveau 1, les prompts (le plus simple, aucune installation). ✅ rédigé
 - **Chapitre 2** : niveau 2, les skills. ✅ rédigé
-- **Chapitre 3** : niveau 3, les agents. 🚧 à venir
+- **Chapitre 3** : niveau 3, aller plus loin avec le Charlie Screener. ✅ rédigé
 - **Annexes** : glossaire, cas de démonstration, personnalisation. ✅ glossaire rédigé
 
 ---
@@ -47,7 +47,7 @@ Un **navigateur** est le logiciel avec lequel vous ouvrez des sites internet. Un
 
 - Vous voulez juste essayer, sans rien installer → **niveau 1, les prompts** (chapitre 1). Commencez par là dans tous les cas.
 - Vous utilisez déjà Claude régulièrement et voulez que les barèmes soient à jour automatiquement → **niveau 2, les skills**.
-- Vous voulez équiper tout un cabinet avec un pôle complet et des dossiers de bout en bout → **niveau 3, les agents**.
+- Vous voulez l'outil complet (analyse de portefeuille, simulateurs, recherche de supports) sans rien installer → **niveau 3, le Charlie Screener** (chapitre 3).
 
 Vous pouvez commencer au niveau 1 aujourd'hui et monter plus tard. Rien n'est perdu.
 
@@ -175,6 +175,30 @@ Ne touchez pas aux autres fichiers (grilles, trames, garde-fous) : c'est la mét
 | Le skill ne se déclenche pas en conversation | Sujet trop éloigné de sa description | Nommez la tâche explicitement (« audit de ce contrat ») ; vérifiez que le skill est bien dans la liste |
 | La sortie ignore votre charte | `contexte-cabinet.md` non personnalisé, ou ancien skill encore chargé | Refaites 2.4 et supprimez l'ancienne version de la liste |
 | Pas de section Compétences dans les paramètres | Offre gratuite ou déploiement progressif | Voir l'encadré du 2.2 |
+
+---
+
+# Chapitre 3. Aller plus loin : le Charlie Screener
+
+⏱️ Durée : 2 minutes, rien à installer.
+
+Les prompts et les skills couvrent la préparation des dossiers. Pour aller plus loin, les briques du dossier de transmission que vous attendez peut-être ici (bilan patrimonial consolidé, audit du régime matrimonial, simulation de succession, calcul du démembrement, donation et quasi-usufruit) existent déjà, prêtes à l'emploi : ce sont des fonctionnalités du **Charlie Screener**, l'outil que nous avons développé pour les conseillers en gestion de patrimoine.
+
+## 3.1 Ce que le Charlie Screener regroupe
+
+- **Analyser** : le diagnostic d'un portefeuille existant (répartition, concentration, frais réels).
+- **Simuler** : 42 simulateurs, du bilan patrimonial à la transmission (succession, démembrement, donation, régimes matrimoniaux), avec les barèmes officiels.
+- **Rechercher** : un univers de supports (fonds, ETF, SCPI, produits structurés) avec filtres, pour trouver le bon support pour un client précis.
+- **Comparer** : les contrats d'assurance-vie entre eux.
+- **Construire** : une allocation adaptée au profil du client, frais détaillés à l'appui.
+
+Là où un prompt ou un skill prépare un document, le Screener fait tourner les calculs avec les barèmes à jour : les deux se complètent. Par exemple : le skill `bilan-patrimonial` structure votre rendez-vous de découverte, puis le Screener chiffre la simulation de succession du même dossier.
+
+## 3.2 Y accéder
+
+👉 **[Découvrir le Charlie Screener](https://www.charliewealth.fr/landing)**
+
+Rien à installer : c'est un outil en ligne. La page de présentation explique les fonctionnalités et comment y accéder.
 
 ---
 

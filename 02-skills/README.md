@@ -39,4 +39,4 @@ Dans chaque skill, un seul fichier vous concerne : **`contexte-cabinet.md`**. Il
 - **Paramètres fiscaux datés** « à vérifier » : ils changent chaque année.
 - **Garde-fou rachat** (antériorité 8 ans, versements avant/après 70 ans) codé en dur dans l'audit.
 
-⚠️ **Rappel données clients** : les skills tournent dans un outil en ligne. Données **anonymisées uniquement** (voir le [chapitre 0 du guide](../docs/guide-installation.md#chapitre-0-avant-de-commencer)). Pour travailler sur des données réelles en local : niveau 3.
+⚠️ **Rappel données clients** : les skills tournent dans un outil en ligne. Données **anonymisées uniquement** (voir le [chapitre 0 du guide](../docs/guide-installation.md#chapitre-0-avant-de-commencer)). Pour aller plus loin (simulateurs de transmission, analyse de portefeuille, recherche de supports) : le [Charlie Screener](https://www.charliewealth.fr/landing), présenté au chapitre 3 du guide.

@@ -16,10 +16,10 @@ Des textes prêts à copier-coller dans [claude.ai](https://claude.ai). Zéro in
 |---|---|---|
 | `bilan-patrimonial.md` | Photographie structurée de la situation client | ✅ v1, à tester sur cas fictif |
 | `audit-patrimonial.md` | Analyse critique de l'existant | ✅ v1, à tester sur cas fictif |
-| `audit-regime-matrimonial.md` | Module transmission | 📋 backlog |
-| `simulation-succession.md` | Module transmission | 📋 backlog |
-| `calcul-demembrement.md` | Module transmission | 📋 backlog |
-| `donation-quasi-usufruit.md` | Module transmission | 📋 backlog |
+| `audit-regime-matrimonial.md` | Module transmission | ✅ couvert par le [Charlie Screener](https://www.charliewealth.fr/landing) (guide, chapitre 3) |
+| `simulation-succession.md` | Module transmission | ✅ couvert par le [Charlie Screener](https://www.charliewealth.fr/landing) (guide, chapitre 3) |
+| `calcul-demembrement.md` | Module transmission | ✅ couvert par le [Charlie Screener](https://www.charliewealth.fr/landing) (guide, chapitre 3) |
+| `donation-quasi-usufruit.md` | Module transmission | ✅ couvert par le [Charlie Screener](https://www.charliewealth.fr/landing) (guide, chapitre 3) |
 
 ## Structure commune (voir `_TEMPLATE.md`)
 
