@@ -1,4 +1,4 @@
-# Cas de test 1 — Bilan patrimonial (fictif, anonymisé)
+# Cas de test 1 : Bilan patrimonial (fictif, anonymisé)
 
 > À coller après le prompt `bilan-patrimonial.md`. Toutes les données sont inventées. Les pièges sont intentionnels (voir la grille dans le README).
 

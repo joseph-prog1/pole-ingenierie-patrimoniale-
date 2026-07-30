@@ -2,7 +2,7 @@
 
 **Vous êtes au bon endroit si** vous avez déjà essayé les prompts du niveau 1 et que vous voulez arrêter de recoller votre contexte à chaque conversation. Un **skill**, c'est votre méthode empaquetée une fois pour toutes : Claude connaît votre cabinet, applique votre grille de travail, et produit directement un livrable présentable (PowerPoint, trame, courrier).
 
-📖 **Première fois ici ?** Suivez le [chapitre 2 du guide d'installation](../docs/guide-installation.md#chapitre-2--niveau-2--les-skills), avec captures d'écran : il vous prend par la main du téléchargement au premier livrable.
+📖 **Première fois ici ?** Suivez le [chapitre 2 du guide d'installation](../docs/guide-installation.md#chapitre-2-niveau-2-les-skills), avec captures d'écran : il vous prend par la main du téléchargement au premier livrable.
 
 ## Les 5 skills du pack
 
@@ -25,7 +25,7 @@ Chaque dossier de skill contient un fichier `.zip` prêt à l'emploi. Par exempl
 3. Cliquez sur le bouton de téléchargement (flèche vers le bas, en haut à droite du fichier, « Download raw file »).
 4. Le fichier arrive dans votre dossier « Téléchargements ». **Ne le décompressez pas** : Claude le prend tel quel.
 
-Ensuite, direction le [chapitre 2 du guide](../docs/guide-installation.md#chapitre-2--niveau-2--les-skills) pour le charger dans Claude (5 minutes, captures d'écran à l'appui).
+Ensuite, direction le [chapitre 2 du guide](../docs/guide-installation.md#chapitre-2-niveau-2-les-skills) pour le charger dans Claude (5 minutes, captures d'écran à l'appui).
 
 ## Personnaliser (le seul fichier à modifier)
 
@@ -39,4 +39,4 @@ Dans chaque skill, un seul fichier vous concerne : **`contexte-cabinet.md`**. Il
 - **Paramètres fiscaux datés** « à vérifier » : ils changent chaque année.
 - **Garde-fou rachat** (antériorité 8 ans, versements avant/après 70 ans) codé en dur dans l'audit.
 
-⚠️ **Rappel données clients** : les skills tournent dans un outil en ligne. Données **anonymisées uniquement** (voir le [chapitre 0 du guide](../docs/guide-installation.md#chapitre-0--avant-de-commencer)). Pour travailler sur des données réelles en local : niveau 3.
+⚠️ **Rappel données clients** : les skills tournent dans un outil en ligne. Données **anonymisées uniquement** (voir le [chapitre 0 du guide](../docs/guide-installation.md#chapitre-0-avant-de-commencer)). Pour travailler sur des données réelles en local : niveau 3.

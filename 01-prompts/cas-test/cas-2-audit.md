@@ -1,4 +1,4 @@
-# Cas de test 2 — Audit patrimonial (fictif, anonymisé)
+# Cas de test 2 : Audit patrimonial (fictif, anonymisé)
 
 > À coller après le prompt `audit-patrimonial.md`. Toutes les données sont inventées. Les pièges sont intentionnels (voir la grille dans le README).
 

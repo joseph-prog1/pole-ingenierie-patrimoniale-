@@ -10,7 +10,7 @@ Ce guide est écrit pour une personne qui **n'a jamais utilisé d'outil d'IA** e
 
 ---
 
-# Chapitre 0 — Avant de commencer
+# Chapitre 0. Avant de commencer
 
 ⏱️ Lecture : environ 8 minutes.
 
@@ -53,7 +53,7 @@ Vous pouvez commencer au niveau 1 aujourd'hui et monter plus tard. Rien n'est pe
 
 ---
 
-# Chapitre 1 — Niveau 1 : les prompts
+# Chapitre 1. Niveau 1, les prompts
 
 ⏱️ Durée : environ 10 minutes pour votre premier bilan.
 
@@ -112,7 +112,7 @@ Même principe avec `audit-patrimonial.md`, mais pour analyser ce que le client 
 
 ---
 
-# Chapitre 2 — Niveau 2 : les skills
+# Chapitre 2. Niveau 2, les skills
 
 ⏱️ Durée : environ 10 minutes, dont 5 pour le premier chargement.
 
@@ -178,7 +178,7 @@ Ne touchez pas aux autres fichiers (grilles, trames, garde-fous) : c'est la mét
 
 ---
 
-# Annexe A — Glossaire
+# Annexe A. Glossaire
 
 | Terme | Définition simple |
 |---|---|
@@ -198,6 +198,6 @@ Ne touchez pas aux autres fichiers (grilles, trames, garde-fous) : c'est la mét
 
 ---
 
-# Annexe B — Cas de démonstration
+# Annexe B. Cas de démonstration
 
 Deux dossiers fictifs et anonymisés sont fournis dans `01-prompts/cas-test/` pour vous entraîner sans risque avant de traiter un vrai client. Chacun contient des points d'attention à repérer.

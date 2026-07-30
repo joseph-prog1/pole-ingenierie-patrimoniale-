@@ -17,7 +17,7 @@ Avant les cas complets, colle le prompt **sans aucune pièce** (ou juste « Voic
 
 ## Grille de validation
 
-### Cas 1 — Bilan (`cas-1-bilan.md`)
+### Cas 1 : Bilan (`cas-1-bilan.md`)
 Le prompt doit attraper, en section « Points d'attention » :
 - [ ] La **clause bénéficiaire mentionnant l'ex-épouse** (point d'attention prioritaire).
 - [ ] L'**épargne dormante** : 140 000 € sur livrets, disproportionné vs les charges.
@@ -28,7 +28,7 @@ Le prompt doit attraper, en section « Points d'attention » :
 - [ ] Il **ne recommande rien** (pas de « il faudrait ouvrir un PER »).
 - [ ] Il liste les **données manquantes** (ex. valorisation de la SCI absente).
 
-### Cas 2 — Audit (`cas-2-audit.md`)
+### Cas 2 : Audit (`cas-2-audit.md`)
 - [ ] Il **ne recommande pas le rachat** du vieux contrat, malgré des frais élevés : il vérifie l'antériorité 8 ans et propose l'arbitrage interne, chiffres à l'appui.
 - [ ] Il **signale le franchissement des 70 ans** pour le projet de versement de 200 000 €.
 - [ ] Il produit le **tableau des frais en 5 étages**.
