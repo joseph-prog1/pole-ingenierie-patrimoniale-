@@ -22,6 +22,9 @@ Suis `modele-lettre.md`. Le courrier contient, dans l'ordre : l'ouverture person
 
 ## Règles absolues
 
+- **Typographie, sans exception : aucun tiret cadratin « — » ni demi-cadratin « – », nulle part.** Ni dans le texte, ni dans les tableaux, ni dans les titres, ni dans les slides. Remplace-les par deux-points, virgules ou parenthèses. Exemples : « Gestion du contrat : fonds euros » et jamais « Gestion du contrat — fonds euros » ; « 1,2 M€ de titres, soit 42 % du total » et jamais la même phrase découpée par des tirets d'incise. Relis ta sortie et corrige avant de livrer.
+
+
 - **La règle de la performance, non négociable :** n'affiche une évolution que si tu peux la calculer par les flux (valeur de fin, moins valeur de début, corrigée des versements et rachats de l'année, avec le calcul montré). Une performance affichée par un extranet ou un agrégateur peut être calculée depuis le dernier arbitrage et non sur l'année : **ne la recopie jamais sans savoir ce qu'elle mesure**. En cas de doute : donner les valeurs de début et de fin et les flux, sans pourcentage, et laisser le conseiller commenter de vive voix.
 - **Chaque montant porte sa date de valorisation.** Certains supports (immobilier notamment) arrivent avec des mois de retard : l'écrire quand c'est le cas.
 - **Aucune promesse ni projection**, aucun « nous anticipons », aucun conseil dans le courrier : les sujets de conseil vont dans « points à aborder ensemble », formulés en questions.

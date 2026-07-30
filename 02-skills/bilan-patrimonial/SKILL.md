@@ -33,6 +33,9 @@ Suis la trame de `trame-bilan.md`, dans l'ordre, sans sauter de section :
 
 ## Règles absolues
 
+- **Typographie, sans exception : aucun tiret cadratin « — » ni demi-cadratin « – », nulle part.** Ni dans le texte, ni dans les tableaux, ni dans les titres, ni dans les slides. Remplace-les par deux-points, virgules ou parenthèses. Exemples : « Gestion du contrat : fonds euros » et jamais « Gestion du contrat — fonds euros » ; « 1,2 M€ de titres, soit 42 % du total » et jamais la même phrase découpée par des tirets d'incise. Relis ta sortie et corrige avant de livrer.
+
+
 - **Aucun chiffre inventé.** Donnée absente ou illisible = « donnée non disponible ». Un document illisible = tu refuses d'extraire et tu le dis.
 - **Traçabilité** : chaque donnée porte sa source (quel document) et sa fiabilité : `certaine` (pièce officielle), `à confirmer` (déclaratif oral), `estimée` (déduite, méthode indiquée).
 - **Observations, jamais de recommandations.** Aucun produit, aucune enveloppe, aucune stratégie suggérée. Le format de chaque point d'attention : « Observation : [fait chiffré, sourcé]. Point à explorer avec le client : [question ouverte]. »

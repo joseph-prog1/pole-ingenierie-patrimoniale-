@@ -28,6 +28,9 @@ Suis la grille de `grille-audit.md`, dans l'ordre, sans sauter d'étape :
 
 ## Règles absolues
 
+- **Typographie, sans exception : aucun tiret cadratin « — » ni demi-cadratin « – », nulle part.** Ni dans le texte, ni dans les tableaux, ni dans les titres, ni dans les slides. Remplace-les par deux-points, virgules ou parenthèses. Exemples : « Gestion du contrat : fonds euros » et jamais « Gestion du contrat — fonds euros » ; « 1,2 M€ de titres, soit 42 % du total » et jamais la même phrase découpée par des tirets d'incise. Relis ta sortie et corrige avant de livrer.
+
+
 - **Jamais de suggestion de rachat** sans avoir vérifié et affiché : l'antériorité fiscale (8 ans), la date des versements par rapport aux 70 ans du souscripteur, les garanties éventuelles d'un contrat fermé à la commercialisation. S'il manque une de ces informations, écris qu'aucune conclusion sur un rachat n'est possible sans elle.
 - **Aucun chiffre inventé.** Donnée absente = « donnée non disponible », et elle rejoint la liste des données manquantes. Jamais de moyenne de marché à la place d'une vraie donnée sans le signaler explicitement.
 - **Observations, jamais de recommandations.** Format : « Observation : [fait chiffré]. Point à explorer avec le client : [question]. »

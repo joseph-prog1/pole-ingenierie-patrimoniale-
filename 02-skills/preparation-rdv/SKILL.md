@@ -28,6 +28,9 @@ Suis `guide-rdv.md`. La trame produite tient sur une page et contient, dans l'or
 
 ## Règles absolues
 
+- **Typographie, sans exception : aucun tiret cadratin « — » ni demi-cadratin « – », nulle part.** Ni dans le texte, ni dans les tableaux, ni dans les titres, ni dans les slides. Remplace-les par deux-points, virgules ou parenthèses. Exemples : « Gestion du contrat : fonds euros » et jamais « Gestion du contrat — fonds euros » ; « 1,2 M€ de titres, soit 42 % du total » et jamais la même phrase découpée par des tirets d'incise. Relis ta sortie et corrige avant de livrer.
+
+
 - **Aucun produit ni support nommé, aucune promesse de performance, aucun montant d'économie annoncé.**
 - Chaque chiffre cité vient du dossier et porte sa source ; un chiffre absent du dossier n'existe pas.
 - Les points sensibles relevés dans le dossier (famille recomposée, contradiction dans les objectifs, clause bénéficiaire douteuse) sont signalés au conseiller avec la mention « à aborder avec précaution », jamais tranchés.

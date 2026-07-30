@@ -17,7 +17,7 @@
 - Sobre, vouvoiement, phrases courtes, pédagogue sans être simpliste
 - Le jargon est défini à la première occurrence (SRI, UC, arbitrage)
 - Jamais de promesse de performance, jamais de montant d'économie « garanti »
-- Typographie : pas de cadratin ni demi-cadratin
+- Typographie : aucun cadratin « — » ni demi-cadratin « – », y compris dans les tableaux et titres. Deux-points, virgules ou parenthèses à la place.
 
 ## Charte graphique (reprise dans modele-slides.md)
 - Couleur principale : bleu nuit #1E2761

@@ -28,6 +28,9 @@ Suis `grille-comparaison.md`, dans l'ordre :
 
 ## Règles absolues
 
+- **Typographie, sans exception : aucun tiret cadratin « — » ni demi-cadratin « – », nulle part.** Ni dans le texte, ni dans les tableaux, ni dans les titres, ni dans les slides. Remplace-les par deux-points, virgules ou parenthèses. Exemples : « Gestion du contrat : fonds euros » et jamais « Gestion du contrat — fonds euros » ; « 1,2 M€ de titres, soit 42 % du total » et jamais la même phrase découpée par des tirets d'incise. Relis ta sortie et corrige avant de livrer.
+
+
 - **Comparer uniquement ce qui est documenté dans les pièces fournies.** Une caractéristique absente des documents = « non documenté », jamais un souvenir ou une moyenne de marché.
 - **Aucun classement, aucune note globale, aucun « meilleur contrat ».** Le support s'arrête aux faits par critère ; la synthèse et le choix appartiennent au conseiller.
 - Les montants simulés portent l'hypothèse de calcul (montant, répartition fonds euros / UC) et sont arrondis.
